@@ -44,7 +44,7 @@ public class AgePageTest extends BaseTestClass{
         // Grab end slider position
         Point yearSliderEndingPosition = setAgePage.yearSlider().getLocation();
 
-        Assert.assertEquals(yearSliderInitialPosition,yearSliderEndingPosition);
+        Assert.assertNotEquals(yearSliderInitialPosition,yearSliderEndingPosition);
     }
 
     public void testBekraeftSendsUserToConsentPage(){
