@@ -52,7 +52,7 @@ public class AgePageTest extends BaseTestClass{
         Assert.assertTrue(dataConsentPage.dataConsentPageContainer().isDisplayed());
     }
 
-    public void moveAgeSlider(int xStart, int yStart, int xEnd, int yEnd) {
+    private void moveAgeSlider(int xStart, int yStart, int xEnd, int yEnd) {
         swipe.press(PointOption.point(xStart,yStart))
                 .waitAction(WaitOptions.waitOptions(Duration.ofMillis(200)))
                 .moveTo(PointOption.point(xEnd, yEnd))

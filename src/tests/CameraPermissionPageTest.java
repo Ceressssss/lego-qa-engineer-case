@@ -7,6 +7,8 @@ import pageobjects.CameraPermissionsPage;
 import pageobjects.DataConsentPage;
 
 public class CameraPermissionPageTest extends BaseTestClass{
+
+    //APP PAGES
     CameraPermissionsPage cameraPermissionsPage;
     AvatarSelectionPage avatarSelectionPage;
 

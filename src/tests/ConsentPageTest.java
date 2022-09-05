@@ -8,6 +8,8 @@ import pageobjects.CameraPermissionsPage;
 import pageobjects.DataConsentPage;
 
 public class ConsentPageTest extends BaseTestClass{
+
+    //APP PAGES
     DataConsentPage dataConsentPage;
     CameraPermissionsPage cameraPermissionsPage;
 

@@ -6,6 +6,8 @@ import pageobjects.AvatarSelectionPage;
 import pageobjects.BandNamePage;
 
 public class AvatarSelectionPageTest extends BaseTestClass{
+
+    //APP PAGES
     AvatarSelectionPage avatarSelectionPage;
     BandNamePage bandNamePage;
 
